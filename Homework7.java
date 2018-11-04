@@ -1,10 +1,18 @@
+/*
+Andrew Cascio
+*/
+
 public class Homework7 {
 
 	/* Use a while loop to add up the integers
 	 * from 1 to x and return the result
 	 */
 	public static int problem1(int x) {
-
+			int sum = 0;
+			for (int i = 0; i <= x; i++) {
+					sum += i;
+			}
+			return sum;
 	}
 
 	/* Use a loop (while or for) to find the
@@ -14,23 +22,41 @@ public class Homework7 {
 	 * use that method, you must use a loop
 	 */
 	public static int problem2(String s, String t) {
-
-	}
+			int i = 0;
+			int z = 1;
+			while (i < 1) {
+					z = s.indexOf(t);
+					i++;
+			}
+			return z;
+		}
 
 	/* Use a loop (while or for) to calculate and
 	 * return the value of a raised to the b
 	 * power
 	 */
 	public static int problem3(int a, int b) {
-
-	}
+			int i = 0;
+			int z = 1;
+			while (i < b) {
+					z *= a;
+					i++;
+			}
+			return z;
+		}
 
 	/* Use a loop (while or for) to calculate and
 	 * return the integer portion of a divided by
 	 * b (i.e., calculate a / b using a loop)
 	 */
 	public static int problem4(int a, int b) {
-
+			int i = 0;
+			int r = 0;
+			while (i < 1) {
+					r = a / b ;
+					i++;
+			}
+			return r;
 	}
 
 	/* Use a loop (while or for) to calculate and
@@ -38,7 +64,13 @@ public class Homework7 {
 	 * (i.e., calculate a % b using a loop)
 	 */
 	 public static int problem5(int a, int b) {
-
+		 	int i = 0;
+			int r = 0;
+			while (i < 1) {
+					r = a % b;
+					i++;
+			}
+			return r;
 	 }
 
 	public static void main(String[] args) {
