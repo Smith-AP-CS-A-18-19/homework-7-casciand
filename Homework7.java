@@ -21,6 +21,10 @@ public class Homework7 {
 	 * indexOf method does, but you may not
 	 * use that method, you must use a loop
 	 */
+	 /* Not quite. We need to check substrings as we
+	  * iterate through the string. Start at 0 and
+	  * check each substring of length t.length()
+	  */
 	public static int problem2(String s, String t) {
 			int i = 0;
 			int z = 1;
